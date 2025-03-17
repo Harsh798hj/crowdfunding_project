@@ -1,0 +1,129 @@
+.container {
+  position: relative;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+.header {
+  padding: 1% 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.myactive {
+  display: block;
+  width: 100%;
+  height: 500px;
+  animation: fadeIn 1s;
+}
+
+.caption {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff; /* Change color to white */
+  font-size: 1.5em; /* Make the font size smaller */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; /* Example font: Roboto */
+}
+
+.text {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff; /* Change color to white */
+  font-size: 1.2em; /* Make the font size smaller */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; /* Example font: Roboto */
+}
+
+@media only screen and (max-width: 1125px) {
+  .caption {
+    top: 18%;
+    left: 50%;
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+}
+
+@media only screen and (min-width: 461px) and (max-width: 935px) {
+  .text {
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+}
+
+@media only screen and (min-width: 290px) and (max-width: 460px) {
+  .text {
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 289px) {
+  .text {
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+}
+
+.mynone {
+  display: none;
+  animation: fadeOut 1s;
+}
+
+.image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #1e90ff;
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
