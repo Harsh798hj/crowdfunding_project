@@ -1,7 +1,7 @@
-# Crowdfunding Platform
+# Crowdfunding Project
 
 ## 🚀 Overview
-This is a web-based **Crowdfunding Platform** that allows users to create and support fundraising campaigns. The platform enables secure transactions, campaign tracking, and user authentication.
+This is a web-based **Crowdfunding Project** that allows users to create and support fundraising campaigns. The platform enables secure transactions, campaign tracking, and user authentication.
 
 ## 🔥 Features
 - 🏆 **Create and Manage Campaigns**
